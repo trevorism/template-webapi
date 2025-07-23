@@ -1,4 +1,5 @@
 runtime: java21
+service: gcloud
 entrypoint: java -jar gcloud-all.jar
 handlers:
   - url: /.*
